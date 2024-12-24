@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Abdução de Owen</title>
+</head>
+<body>
+    <h1>Relatório de Abdução de Owen</h1>
+
+
+    
+
+    <form action="report.php" method="post">
+        <label for="nome">Seu nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="ultimo">Último nome:</label>
+        <input type="ultimo" id="ultimo" name="ultimo" required><br><br>
+
+        <label for="email">Seu endereço de email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="quando">Quando aconteceu a abdução?</label>
+        <input type="date" id="quando" name="quando" required><br><br>
+
+        <label for="quantos" placeholder = '2 horas'>Aconteceu por quanto tempo? </label>
+        <input type="number" id="quantos" name="quantos" required><br><br>
+        <label for="quantidade" >Eram quantos? </label>
+        <input type="text" id="quantidade" name="quantidade" required><br><br>
+
+        <label for="descricao">Descreva-los:</label><br>
+        <textarea id="descricao" name="descricao" rows="5" cols="40" required></textarea><br><br>
+
+        <label for="fizeram">O que eles fizeram para você?</label><br>
+        <textarea id="fizeram" name="fizeram" rows="5" cols="40" required></textarea><br><br>
+
+        <label for="outros">Mais alguma coisa?</label><br>
+        <textarea id="outros" name="outros" rows="3" cols="40" required></textarea><br><br>
+
+        <label for="estranhos">Você viu meu cachorro fang?</label><br>
+        
+
+        <label for="estranhos-sim">Sim</label><br>
+        <input type="radio" id="estranhos-sim" name="estranhos" value="sim" required>
+        
+
+        <label for="estranhos-nao">Não</label><br><br>
+        <input type="radio" id="estranhos-nao" name="estranhos" value="não" required>
+       
+
+        <input type="submit" value="Enviar Relatório">
+    </form>
+</body>
+</html>

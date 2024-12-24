@@ -1,0 +1,117 @@
+.title{
+	color: red;
+}
+
+body {
+	background: linear-gradient(to right, pink 60%, white);
+	font-family: "Raleway", sans-serif;
+
+}
+
+.subtitle{
+	color: blue;
+}
+
+#contact-us{
+	color: green;
+}
+
+h2:hover{
+	color:blue;
+}
+
+.about-me{
+	color:yellow;
+}
+
+/*li:last-child{
+	color: pink;
+
+}
+li:nth-child(2){
+	color:blue;*/
+}
+
+/*#google-link:link {
+	color:green;
+}
+
+#google-link:visited { 
+	color:yellow;
+ }
+*/
+
+h2 + a {
+	color:red;
+}
+
+textarea ~ button {
+	color: purple;
+}
+
+ul > li{
+	color: orange;
+}
+
+/*img[src^="../img/"]{
+	border: 10px solid black;
+}*/
+
+h2[class~=article-subtitle]{
+	background: hotpink;
+}
+
+#container{
+	background-color: white;
+	height: 300px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+/*	flex-wrap: wrap;*/
+	justify-content: center;
+	align-content: center;
+}
+
+.link {
+	text-decoration: overline;
+/*	float: left;*/
+
+}
+
+.site-table{
+	display: none;
+	margin-top: 20px;
+}
+
+.container-item {
+	background: green;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	width: 70px;
+	line-height: 50px;
+	margin: 10px;
+}
+
+.container-grid{
+	background-color: rgb(250,250,250);
+	height: 400px;
+	margin: 10px;
+	display: grid;
+	margin-bottom: 100px;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	/*justify-content: space-around;
+	align-content: space-evenly;*/
+/*	border: 1px solid black;*/
+}
+
+.grid-item{
+	background-color: green ;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	width: 70px;
+	margin: 10px;
+}
